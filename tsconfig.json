@@ -1,0 +1,57 @@
+{
+	"compilerOptions": {
+		/**
+		 * Type Checking
+		 */
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+
+		/**
+		 * Modules
+		 */
+		"module": "CommonJS",
+		"resolveJsonModule": true,
+
+		/**
+		 * Emit
+		 */
+		"noEmit": true,
+		"outDir": "./public",
+
+		/**
+		 * JavaScript Support
+		 */
+		"allowJs": true,
+		"checkJs": true,
+
+		/**
+		 * Interop Constraints
+		 */
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/**
+		 * Language and Environment
+		 */
+		"jsx": "react-jsx",
+		"target": "ES2020",
+
+		/**
+		 * Projects
+		 */
+		"incremental": true,
+
+		/**
+		 * Completeness
+		 */
+		"skipLibCheck": true
+	}
+}
