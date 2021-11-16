@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-test/static/css/main.82a2b1e5.chunk.css",
+    "main.js": "/react-test/static/js/main.81eddb24.chunk.js",
+    "main.js.map": "/react-test/static/js/main.81eddb24.chunk.js.map",
+    "runtime-main.js": "/react-test/static/js/runtime-main.f6e48190.js",
+    "runtime-main.js.map": "/react-test/static/js/runtime-main.f6e48190.js.map",
+    "static/js/2.2027ad65.chunk.js": "/react-test/static/js/2.2027ad65.chunk.js",
+    "static/js/2.2027ad65.chunk.js.map": "/react-test/static/js/2.2027ad65.chunk.js.map",
+    "index.html": "/react-test/index.html",
+    "static/css/main.82a2b1e5.chunk.css.map": "/react-test/static/css/main.82a2b1e5.chunk.css.map",
+    "static/js/2.2027ad65.chunk.js.LICENSE.txt": "/react-test/static/js/2.2027ad65.chunk.js.LICENSE.txt",
+    "static/media/avatarImage.3b716706.jpg": "/react-test/static/media/avatarImage.3b716706.jpg",
+    "static/media/avatarImage1.7b85f781.jpg": "/react-test/static/media/avatarImage1.7b85f781.jpg",
+    "static/media/avatarImage2.5473db71.jpg": "/react-test/static/media/avatarImage2.5473db71.jpg",
+    "static/media/avatarImage3.768bce52.jpg": "/react-test/static/media/avatarImage3.768bce52.jpg",
+    "static/media/avatarImage4.a959b22a.jpg": "/react-test/static/media/avatarImage4.a959b22a.jpg",
+    "static/media/avatarImage5.e98f9326.jpg": "/react-test/static/media/avatarImage5.e98f9326.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6e48190.js",
+    "static/js/2.2027ad65.chunk.js",
+    "static/css/main.82a2b1e5.chunk.css",
+    "static/js/main.81eddb24.chunk.js"
+  ]
+}
