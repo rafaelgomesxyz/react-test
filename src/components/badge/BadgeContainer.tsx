@@ -5,6 +5,7 @@ export interface BadgeContainerProps {
 	glow: boolean;
 	paid: boolean;
 	late: boolean;
+	clean: boolean;
 }
 
 export const BadgeContainer = styled.div`
@@ -15,7 +16,7 @@ export const BadgeContainer = styled.div`
 	font-weight: 500;
 	padding: 0.25rem 1rem;
 
-	${({ glow, paid, late }: BadgeContainerProps) =>
+	${({ glow, paid, late, clean }: BadgeContainerProps) =>
 		`${
 			glow
 				? `
@@ -40,6 +41,15 @@ export const BadgeContainer = styled.div`
 				? `
 					background-color: #ff595e41;
 					color: #ff595e;
+				`
+				: ''
+		}
+		${
+			clean
+				? `
+					background-color: transparent;
+					border: 0.05rem solid ${badgeBgColor};
+					color: ${badgeBgColor};
 				`
 				: ''
 		}`}

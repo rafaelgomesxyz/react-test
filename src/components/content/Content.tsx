@@ -14,6 +14,7 @@ import { ContentSection2Column1Block1 } from './ContentSection2Column1Block1';
 import { ContentSection2Column2 } from './ContentSection2Column2';
 import { ContentSubContainer } from './ContentSubContainer';
 import { ContentColumnTitle } from './ContentColumnTitle';
+import { ProjectRecommendation } from '../project-recommendation/ProjectRecommendation';
 
 export const Content = (): JSX.Element => {
 	return (
@@ -43,7 +44,10 @@ export const Content = (): JSX.Element => {
 						<Slack />
 					</ContentSection2Column1>
 
-					<ContentSection2Column2></ContentSection2Column2>
+					<ContentSection2Column2>
+						<ContentColumnTitle>Recommended Project</ContentColumnTitle>
+						<ProjectRecommendation />
+					</ContentSection2Column2>
 				</ContentSection2>
 			</ContentSubContainer>
 		</ContentContainer>
