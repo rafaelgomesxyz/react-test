@@ -3,7 +3,7 @@ import { FaWallet } from 'react-icons/fa';
 import { RiFileCopyLine, RiHomeLine } from 'react-icons/ri';
 import AvatarImage from '../../assets/avatarImage.jpg';
 import { SidebarAvatar } from './SidebarAvatar';
-import { SidebarBadge } from './SidebarBadge';
+import { Badge } from '../badge/Badge';
 import { SidebarContactContainer } from './SidebarContactContainer';
 import { SidebarContainer } from './SidebarContainer';
 import { SidebarLink } from './SidebarLink';
@@ -18,7 +18,7 @@ export const Sidebar = (): JSX.Element => {
 			<SidebarProfileContainer>
 				<SidebarAvatar src={AvatarImage} />
 				<SidebarName>Rafael Gomes</SidebarName>
-				<SidebarBadge>Pro Level</SidebarBadge>
+				<Badge>Pro Level</Badge>
 			</SidebarProfileContainer>
 
 			<SidebarLinksContainer>

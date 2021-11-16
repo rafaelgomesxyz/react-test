@@ -1,4 +1,5 @@
 import { Earnings } from '../earnings/Earnings';
+import { Info } from '../info/Info';
 import { Navbar } from '../navbar/Navbar';
 import { ContentContainer } from './ContentContainer';
 import { ContentSection1 } from './ContentSection1';
@@ -18,6 +19,7 @@ export const Content = (): JSX.Element => {
 				<ContentSection1>
 					<ContentSection1Column1>
 						<Earnings />
+						<Info />
 					</ContentSection1Column1>
 
 					<ContentSection1Column2></ContentSection1Column2>
