@@ -15,13 +15,32 @@ export const BadgeContainer = styled.div`
 	font-weight: 500;
 	padding: 0.25rem 1rem;
 
-	${({ glow }: BadgeContainerProps) =>
-		glow &&
-		`
-			background-color: rgba(109, 134, 245, 0.192);
-			color: #2f233d;
-			font-size: 0.8rem;
-			font-weight: normal;
-			padding: 0.2rem 0.5rem;		
-		`}
+	${({ glow, paid, late }: BadgeContainerProps) =>
+		`${
+			glow
+				? `
+					background-color: rgba(109, 134, 245, 0.192);
+					color: #2f233d;
+					font-size: 0.8rem;
+					font-weight: normal;
+					padding: 0.2rem 0.5rem;		
+				`
+				: ''
+		}
+		${
+			paid
+				? `
+					background-color: #70e00041;
+					color: #70e000;
+				`
+				: ''
+		}
+		${
+			late
+				? `
+					background-color: #ff595e41;
+					color: #ff595e;
+				`
+				: ''
+		}`}
 `;

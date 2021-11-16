@@ -1,5 +1,6 @@
 import { Earnings } from '../earnings/Earnings';
 import { Info } from '../info/Info';
+import { Invoices } from '../invoices/Invoices';
 import { Navbar } from '../navbar/Navbar';
 import { Projects } from '../projects/Projects';
 import { ContentContainer } from './ContentContainer';
@@ -31,7 +32,10 @@ export const Content = (): JSX.Element => {
 				</ContentSection1>
 
 				<ContentSection2>
-					<ContentSection2Column1></ContentSection2Column1>
+					<ContentSection2Column1>
+						<ContentColumnTitle>Recent Invoices</ContentColumnTitle>
+						<Invoices />
+					</ContentSection2Column1>
 
 					<ContentSection2Column2></ContentSection2Column2>
 				</ContentSection2>
