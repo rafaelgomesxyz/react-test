@@ -13,4 +13,10 @@ export const ProjectsContainer = styled.div`
 	&:hover {
 		box-shadow: ${hoverEffect};
 	}
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		height: max-content;
+		margin-top: 1rem;
+		width: 75%;
+	}
 `;

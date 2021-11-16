@@ -6,4 +6,8 @@ export const AppContainer = styled.div`
 	border-radius: 2rem;
 	display: flex;
 	height: calc(100vh - 1rem);
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		flex-direction: column;
+	}
 `;

@@ -5,4 +5,9 @@ export const NavbarContainer = styled.nav`
 	display: flex;
 	height: 10%;
 	justify-content: space-between;
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		flex-direction: column;
+		margin-bottom: 1rem;
+	}
 `;

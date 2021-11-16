@@ -13,4 +13,11 @@ export const InvoicesContainer = styled.div`
 	&:hover {
 		box-shadow: ${hoverEffect};
 	}
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		align-items: center;
+		display: block;
+		justify-content: center;
+		width: 80%;
+	}
 `;

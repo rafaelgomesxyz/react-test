@@ -10,4 +10,9 @@ export const SidebarContainer = styled.div`
 	gap: 3rem;
 	height: 100% !important;
 	width: 20%;
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		height: max-content !important;
+		width: 100%;
+	}
 `;

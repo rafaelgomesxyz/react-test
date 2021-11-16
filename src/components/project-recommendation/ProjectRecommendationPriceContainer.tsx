@@ -8,4 +8,9 @@ export const ProjectRecommendationPriceContainer = styled.div`
 	justify-content: space-between;
 	margin: 0 1rem;
 	padding: 0.5rem 1rem;
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		flex-direction: column;
+		gap: 0.4rem;
+	}
 `;

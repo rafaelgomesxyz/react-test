@@ -13,4 +13,11 @@ export const SlackContainer = styled.div`
 	&:hover {
 		box-shadow: ${hoverEffect};
 	}
+
+	@media screen and (min-width: 320px) and (max-width: 1080px) {
+		height: max-content;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		width: 80%;
+	}
 `;
