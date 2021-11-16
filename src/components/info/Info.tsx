@@ -8,7 +8,7 @@ import { InfoRowContent } from './InfoRowContent';
 import { InfoSubTitle } from './InfoSubTitle';
 import { InfoTitle } from './InfoTitle';
 
-export const Info = () => {
+export const Info = (): JSX.Element => {
 	return (
 		<InfoContainer>
 			<InfoCard>

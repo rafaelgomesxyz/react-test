@@ -12,7 +12,7 @@ import { InvoiceTitle } from './InvoiceTitle';
 import { InvoicesCardContent } from './InvoicesCardContent';
 import { InvoicesContainer } from './InvoicesContainer';
 
-export const Invoices = () => {
+export const Invoices = (): JSX.Element => {
 	return (
 		<InvoicesContainer>
 			<InvoicesCardContent>

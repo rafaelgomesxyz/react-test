@@ -7,7 +7,12 @@ export interface BadgeProps {
 	children: React.ReactNode;
 }
 
-export const Badge = ({ glow = false, paid = false, late = false, children }: BadgeProps) => {
+export const Badge = ({
+	glow = false,
+	paid = false,
+	late = false,
+	children,
+}: BadgeProps): JSX.Element => {
 	return (
 		<BadgeContainer glow={glow} paid={paid} late={late}>
 			{children}

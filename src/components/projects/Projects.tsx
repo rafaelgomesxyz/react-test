@@ -8,7 +8,7 @@ import { ProjectSubTitle } from './ProjectSubTitle';
 import { ProjectTitle } from './ProjectTitle';
 import { ProjectsContainer } from './ProjectsContainer';
 
-export const Projects = () => {
+export const Projects = (): JSX.Element => {
 	return (
 		<ProjectsContainer>
 			<Project>
